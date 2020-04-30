@@ -61,7 +61,6 @@ val admin = User(
     mutableListOf(
         SimpleGrantedAuthority("ROLE_ADMIN"),
         SimpleGrantedAuthority("ROLE_USER"),
-        SimpleGrantedAuthority("LOCATION_baierl")
     )
 )
 
