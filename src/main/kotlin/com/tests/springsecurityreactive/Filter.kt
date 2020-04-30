@@ -21,6 +21,7 @@ class Filter : HandlerFilterFunction<ServerResponse, ServerResponse> {
     }
 }
 
+@Component
 class CustomAfterFilter : WebFilter {
     override fun filter(exchange: ServerWebExchange, chain: WebFilterChain): Mono<Void> {
         return PathPatternParserServerWebExchangeMatcher("/admin-test", HttpMethod.GET)

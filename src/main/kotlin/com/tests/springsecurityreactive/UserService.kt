@@ -60,7 +60,7 @@ val admin = User(
     "{noop}password",
     mutableListOf(
         SimpleGrantedAuthority("ROLE_ADMIN"),
-        SimpleGrantedAuthority("ROLE_USER"),
+        SimpleGrantedAuthority("ROLE_USER")
     )
 )
 
